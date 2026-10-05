@@ -6,6 +6,7 @@ This module handles the three ingestion modes for the project:
 - Push: Sysmon logs
 - Stream: Zeek network logs
 
-Week 1: prepare samples
-Week 2: implement connectors
-Week 3: retries and error handling
+## Timeline
+- Week 1: prepare samples
+- Week 2: implement connectors
+- Week 3: retries and error handling
