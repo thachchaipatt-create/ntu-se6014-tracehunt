@@ -1,4 +1,8 @@
-﻿{"timestamp":"2026-10-05T15:09:04.4730493Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650121}
+﻿{"timestamp":"2026-10-05T15:29:52.8825270Z","event_id":4625,"provider":"Microsoft-Windows-Security-Auditing","record_id":650226}
+{"timestamp":"2026-10-05T15:26:31.2634481Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650127}
+{"timestamp":"2026-10-05T15:26:30.6256902Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650125}
+{"timestamp":"2026-10-05T15:11:30.5657814Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650123}
+{"timestamp":"2026-10-05T15:09:04.4730493Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650121}
 {"timestamp":"2026-10-05T15:08:17.1714996Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650119}
 {"timestamp":"2026-10-05T15:08:16.7761242Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650117}
 {"timestamp":"2026-10-05T14:56:33.4683905Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":650082}
@@ -14,7 +18,3 @@
 {"timestamp":"2026-10-05T14:26:40.7999702Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649780}
 {"timestamp":"2026-10-05T14:26:30.3275877Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649755}
 {"timestamp":"2026-10-05T14:26:29.2819689Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649726}
-{"timestamp":"2026-10-05T14:26:26.8863466Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649724}
-{"timestamp":"2026-10-05T14:09:12.7905910Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649721}
-{"timestamp":"2026-10-05T14:08:12.6626609Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649719}
-{"timestamp":"2026-10-05T14:02:46.1786418Z","event_id":4624,"provider":"Microsoft-Windows-Security-Auditing","record_id":649635}
