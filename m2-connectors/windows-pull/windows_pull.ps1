@@ -26,4 +26,27 @@ foreach ($file in $files) {
     } | Set-Content -Path $outputFile -Encoding UTF8
 
     Write-Host "Created: $outputFile"
+    Write-Host "Sending events to Logstash..."
+
+    $client = New-Object System.Net.Sockets.TcpClient
+    $client.Connect("127.0.0.1", 5000)
+
+    $stream = $client.GetStream()
+    $writer = New-Object System.IO.StreamWriter(
+        $stream,
+        [Text.UTF8Encoding]::new($false)
+    )
+
+    $writer.NewLine = "`n"
+
+    Get-Content $outputFile | ForEach-Object {
+        $writer.WriteLine($_)
+    }
+
+    $writer.Flush()
+    $writer.Dispose()
+    $stream.Dispose()
+    $client.Close()
+
+    Write-Host "Sent to Logstash successfully."
 }
